@@ -1,0 +1,50 @@
+tr:first-child {
+    background-color: black;
+    color: white;
+    border: none;
+  }
+ 
+  td, th {
+    padding: 10px;
+    text-align: start;
+  }
+ 
+  table {
+    border-collapse: collapse;
+  }
+  tr:nth-child(1) {
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  
+  td, th {
+    padding: 10px;
+    text-align: start;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  tr:nth-child(odd):not(:first-child) {
+    background-color: #cccfcd;
+  }
+  .instagram {
+    padding: 5px;
+    background-color:blue;
+    border-radius: 5px;
+    color: white;
+    text-decoration:none;
+   }
+   .youtube {
+    padding: 5px;
+    background-color:red;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+   }
+   tr:hover:not(:first-child){
+    transform: scale(1.1);
+    
+  }
